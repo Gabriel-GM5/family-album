@@ -12,6 +12,8 @@ const Home = () => {
                 <Link to="/usuario">Usuario</Link>
                 <br />
                 <Link to="/troll">Troll</Link>
+                <br />
+                <Link to="/albumpraia">Fotos da Praia</Link>
             </Col>
         </Row>
     );

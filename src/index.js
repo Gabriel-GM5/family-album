@@ -7,6 +7,7 @@ import Layout from "./Components/Layout/Layout";
 import Home from "./Pages/Home/Home";
 import Troll from "./Pages/Troll/Troll";
 import NoPage from "./Pages/NoPage/NoPage";
+import AlbumPraia from './Pages/AlbumPraia/AlbumPraia';
 
 const MainContainer = () => {
     return (
@@ -16,6 +17,7 @@ const MainContainer = () => {
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="troll" element={<Troll />} />
+                        <Route path="albumpraia" element={<AlbumPraia />} />
                         <Route path="*" element={<NoPage />} />
                     </Route>
                 </Routes>
